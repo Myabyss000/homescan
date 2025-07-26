@@ -32,8 +32,7 @@ For users who want the fastest installation on Kali Linux:
 ```bash
 pip3 install --break-system-packages git+https://github.com/Myabyss000/homescan.git
 
-# Run homescan
-sudo homescan
+homescan
 ```
 
 > ⚠️ **Note**: This method overrides Python's externally managed environment protection. While it works immediately, use other methods for production environments.
