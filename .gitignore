@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+homescan_reports/
+.env
+*.egg-info/
+.DS_Store

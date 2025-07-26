@@ -1,0 +1,36 @@
+# HomeScan Requirements
+# Core dependencies for HomeScan Network Security Audit Tool
+
+# Network and IP address handling
+# ipaddress is built into Python 3.3+, but included for older versions
+ipaddress>=1.0.0; python_version<'3.3'
+
+# Standard library modules used (no installation needed):
+# - socket (network operations)
+# - subprocess (system commands)
+# - threading (parallel processing)
+# - concurrent.futures (thread pool execution)
+# - ssl (secure connections)
+# - urllib (HTTP requests)
+# - json (data serialization)
+# - argparse (command line parsing)
+# - datetime (timestamps)
+# - pathlib (file system paths)
+# - re (regular expressions)
+# - time (timing operations)
+# - platform (OS detection)
+# - hashlib (cryptographic hashing)
+
+# Development dependencies (optional)
+# Uncomment these if you want to contribute to HomeScan development
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
+# mypy>=0.800
+
+# Documentation dependencies (optional)
+# sphinx>=3.0.0
+# sphinx-rtd-theme>=0.5.0
+
+# Progress bar for scan status
+tqdm>=4.0.0
