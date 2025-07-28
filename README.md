@@ -32,6 +32,9 @@ For users who want the fastest installation on Kali Linux:
 ```bash
 pip3 install --break-system-packages git+https://github.com/Myabyss000/homescan.git
 
+
+
+
 homescan
 ```
 
